@@ -1,0 +1,32 @@
+{
+    "include": [
+        "**/*.ts", "**/*.tsx",
+    ],
+    "exclude": [
+        "node_modules",
+        "build"
+    ],
+    "compilerOptions": {
+        "jsx": "react-jsx",
+        "types": [
+            "./index.d.ts",
+        ],
+        "lib": ["ESNext", "DOM"],
+        "module": "ESNext",
+        "target": "ESNext",
+        "moduleDetection": "force",
+        "outDir": "build",
+        "skipLibCheck": true,
+        "strict": true,
+        "moduleResolution": "Node",
+        "esModuleInterop": true,
+        "resolveJsonModule": true,
+        "isolatedModules": true,
+        // "composite": true,
+        "allowJs": true,
+        "declaration": true,
+        "declarationMap": false,
+        "baseUrl": ".",
+        "declarationDir": "build",
+    }
+}

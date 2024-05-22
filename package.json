@@ -1,0 +1,21 @@
+{
+    "name": "@lesnoypudge/types-global-react",
+    "version": "1.0.0",
+    "description": "lesnoypudge's types-global-react",
+    "main": "./index.d.ts",
+    "scripts": {},
+    "author": "LesnoyPudge",
+    "license": "ISC",
+    "keywords": [
+        "lesnoypudge",
+        "types-global-react"
+    ],
+    "dependencies": {
+        "@types/react": "^18.3.2",
+        "@types/react-dom": "^18.3.0",
+        "babel-plugin-jsx-control-statements": "^4.1.2"
+    },
+    "devDependencies": {
+        "typescript": "^5.4.5"
+    }
+}
