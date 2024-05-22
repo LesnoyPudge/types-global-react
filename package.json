@@ -1,6 +1,6 @@
 {
     "name": "@lesnoypudge/types-global-react",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "lesnoypudge's types-global-react",
     "main": "./index.d.ts",
     "scripts": {},
