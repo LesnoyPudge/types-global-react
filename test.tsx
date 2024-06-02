@@ -1,5 +1,8 @@
+import R, { createContext } from "react";
 
 
+
+const Some = createContext<number>();
 
 const Component = () => {
     return (
