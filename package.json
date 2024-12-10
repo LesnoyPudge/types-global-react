@@ -1,8 +1,9 @@
 {
     "name": "@lesnoypudge/types-global-react",
-    "version": "3.0.0",
+    "version": "4.0.0",
     "description": "lesnoypudge's types-global-react",
     "main": "./index.d.ts",
+    "types": "./index.d.ts",
     "scripts": {
         "publish": "tsc && npm publish --access public",
         "deploy": "tsc && git add . && git commit -m 'update' && git push && git status"
@@ -13,11 +14,10 @@
         "lesnoypudge",
         "types-global-react"
     ],
-    "dependencies": {
-        "@types/react": "^19.0.1",
-        "@types/react-dom": "^19.0.2"
-    },
     "devDependencies": {
         "typescript": "^5.7.2"
+    },
+    "peerDependencies": {
+        "@types/react": "^18.x.x"
     }
 }
