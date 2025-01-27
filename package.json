@@ -1,12 +1,11 @@
 {
     "name": "@lesnoypudge/types-global-react",
-    "version": "4.0.1",
+    "version": "5.0.0",
     "description": "lesnoypudge's types-global-react",
-    "main": "./index.d.ts",
-    "types": "./index.d.ts",
+    "types": "./src/index.d.ts",
     "scripts": {
-        "publish": "tsc && npm publish --access public",
-        "deploy": "tsc && git add . && git commit -m 'update' && git push && git status"
+        "publish": "npm publish --access public",
+        "deploy": "git add . && git commit -m 'update' && git push && git status"
     },
     "author": "LesnoyPudge",
     "license": "ISC",
@@ -14,10 +13,8 @@
         "lesnoypudge",
         "types-global-react"
     ],
-    "devDependencies": {
-        "typescript": "^5.7.2"
-    },
-    "peerDependencies": {
-        "@types/react": "^18.x.x"
+    "dependencies": {
+        "@types/react": "^18.3.18",
+        "@types/react-dom": "^18.3.5"
     }
 }

@@ -9,7 +9,7 @@
     "compilerOptions": {
         "jsx": "react-jsx",
         "types": [
-            "./index.d.ts",
+            "./src/index.d.ts",
         ],
         "lib": ["ESNext", "DOM"],
         "module": "ESNext",
